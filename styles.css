@@ -30,20 +30,32 @@ body {
 }
 
 .logo {
-    font-family: audiowide;
+    font-family: owners;
     font-size: 34px;
-    color: red;
+    color: #C4C7C0;
     text-decoration: none;
     font-weight: 700;
+    letter-spacing: 2px;
+}
+
+@font-face {
+    font-family: diatype;
+    src: url(/fonts/ABCDiatypeMono-Regular-Trial.woff2);
+}
+
+@font-face {
+    font-family: owners;
+    src: url(/fonts/Owners-MediumBeta.woff2);
 }
 
 .navbar a {
-    font-family: Share Tech Mono;
+    font-family: diatype;
+    font-weight: 400;
     position: relative;
     font-size: 20px;
     text-decoration: none;
     font-weight: 500;
-    color: red;
+    color: #C4C7C0;
     margin-left: 40px;
 }
 
@@ -80,3 +92,9 @@ body {
     margin-left: 1150px;
 }
 
+#aboutus {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 250px;
+
+}
