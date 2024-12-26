@@ -38,12 +38,12 @@ body {
 
 @font-face {
     font-family: diatype;
-    src: url(/fonts/ABCDiatypeMono-Regular-Trial.woff2);
+    src: url(fonts/ABCDiatypeMono-Regular-Trial.woff2);
 }
 
 @font-face {
     font-family: owners;
-    src: url(/fonts/Owners-MediumBeta.woff2);
+    src: url(fonts/Owners-MediumBeta.woff2);
 }
 
 .navbar a {
