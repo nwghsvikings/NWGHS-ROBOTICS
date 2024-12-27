@@ -144,3 +144,31 @@ body {
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
 
+@media screen and (max-width: 1536px) {
+    #atext {
+        font-family: owners;
+        margin-left: 200px;
+        margin-top: 200px;
+        font-size: 100px;
+        position: absolute;
+    }
+
+    #ttext {
+        font-family: owners;
+        margin-left: 900px;
+        margin-top: 375px;
+        font-size: 100px;
+        position: absolute;
+    }
+    
+    #stext{
+        font-family: owners;
+        margin-left: 200px;
+        margin-top: 525px;
+        font-size: 100px;
+        position: absolute;
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+    }
+  }
