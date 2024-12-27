@@ -112,3 +112,37 @@ body, html {
 #container1 {
     height: 200px;
 }
+
+@media screen and (max-width:1536px) {
+    #teamimg {
+        margin-left: 900px;
+        position: absolute;
+        margin-top: 250px;
+        width: 500px;
+    
+    }
+    
+    #introtext {
+        width: 700px;
+        font-family: diatype;
+        margin-left: 100px;
+        margin-top: 200px;
+        position: absolute;
+    }
+    
+    #introtext2 {
+        width: 700px;
+        font-family: diatype;
+        margin-left: 100px;
+        margin-top: 375px;
+        position: absolute;
+    }
+    
+    #introtext3 {
+        width: 700px;
+        font-family: diatype;
+        margin-left: 100px;
+        margin-top: 550px;
+        position: absolute;
+    }
+}

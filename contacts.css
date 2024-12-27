@@ -89,3 +89,22 @@ p {
     padding-top: 700px;
 }
 
+@media screen and (max-width: 1536px) {
+    .numbers {
+        padding-left: 170px;
+        padding-top: 400px;
+        position: absolute;
+    }
+    
+    .emails {
+        padding-left: 170px;
+        padding-top: 200px;
+        position: absolute;
+    }
+    
+    #address {
+        position: absolute;
+        padding-left: 170px;
+        padding-top: 600px;
+    }
+}
