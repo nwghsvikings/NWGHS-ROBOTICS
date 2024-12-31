@@ -72,5 +72,42 @@ p {
     margin-left: 70px;
     margin-top: 400px;
     width: 400px;
+    position: absolute;
 }
 
+#changetext1 {
+    margin-left: 70px;
+    margin-top: 475px;
+    width: 400px;
+    position: absolute;
+}
+
+#changetext2 {
+    margin-left: 70px;
+    margin-top: 550px;
+    width: 400px;
+    position: absolute;
+}
+
+@media screen and (max-width: 1536px) {
+    #changetext {
+        margin-left: 70px;
+        margin-top: 250px;
+        width: 400px;
+        position: absolute;
+    }
+    
+    #changetext1 {
+        margin-left: 70px;
+        margin-top: 325px;
+        width: 400px;
+        position: absolute;
+    }
+    
+    #changetext2 {
+        margin-left: 70px;
+        margin-top: 400px;
+        width: 400px;
+        position: absolute;
+    }
+  }
